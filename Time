@@ -1,0 +1,9 @@
+print("welcome to te Time and cleander")
+print("*please between word use ,*")
+Time=input("please enter your country and ctiy")
+print(Time)
+import time
+t = time.localtime(time.time())
+localtime = time.asctime(t)
+str = "Current Time:" + time.asctime(t)
+print(str)
